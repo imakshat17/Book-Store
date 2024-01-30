@@ -14,7 +14,7 @@ import Dashboard from "../dashBoard/Dashboard";
 import UploadBook from "../dashBoard/UploadBook";
 import Manage from "../dashBoard/Manage";
 import Edit from "../dashBoard/Edit";
-import Signup from "../components/Signup";
+import Signup from "../components/SignUp";
 import Login from "../components/Login";
 import PrivateRoute from "../PrivateRoute/PrivateRoute";
 import Logout from "../components/Logout";
@@ -77,7 +77,7 @@ import Logout from "../components/Logout";
     },
     {
       path:"sign-up",
-      element:<Signup/>
+      element:<SignUp/>
     },{
       path:"login",
       element:<Login/>
