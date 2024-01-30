@@ -4,7 +4,7 @@ import { AuthContext } from '../context/AuthProvider'
 import googlelogo from "../assets/google-logo.svg"
 // import { GoogleAuthProvider } from "firebase/auth";
 
-const SignUp = () => {
+const Signup = () => {
     const {createUser,loginWithGoogle}=useContext(AuthContext);
     const [error,setError]=useState("error")
 
@@ -95,4 +95,4 @@ const SignUp = () => {
   )
 }
 
-export default SignUp
+export default Signup
